@@ -50,16 +50,29 @@ public class Matriu1 {
 			}
 		}
 		if(putero) {
-			System.out.println("Existeix a l'arrau");
+			System.out.println("Existeix a l'array");
 			System.out.println("Fila: "+fila);
 			System.out.println("Columna: "+columna);
 		}
 		else {
 			System.out.println("No existeix");
 		}
-					
 		
-
-	}
+		int suma = 0;
+		for (int i = 0;i<matriu.length;i++ ) {
+			for(int j=0;j<matriu[i].length;j++) {
+				suma += matriu[i][j];
+				
+				
+			}
+			
+		}
+		
+		System.out.println(suma);
+		
+		
+		
+		}
+	
 	}
 
